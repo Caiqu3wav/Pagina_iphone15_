@@ -1,0 +1,99 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title_pg{
+    text-align: center;
+    background-color: rgb(73, 73, 133);
+    height: 55px;
+    padding-top: 10px;
+   
+}
+.title_pg:nth-child(1){
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Oswald', sans-serif;
+}
+
+.links{
+display: flex;
+    background-color: rgb(187, 213, 237);
+    text-align: center;
+    justify-content: space-around;
+    height: 150px;
+    border: solid 3px;
+    border-color: rgb(0, 0, 0);
+}
+
+.link{
+padding-top: 60px;
+padding-right: 50px;
+color: rgb(87, 98, 122);
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    border: solid 3px;
+    background-color: rgb(187, 213, 237);
+    border-color:  rgb(0, 0, 0);;
+}
+
+.ibagems{
+    border: solid 2px;
+    
+}
+
+.first_text{
+    background-color: rgb(187, 213, 237);
+    height: 230px;
+border: solid 2px;
+}
+
+.first_text p{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    color: rgb(87, 98, 122);
+}
+
+.two_texts{
+    background-color: rgb(187, 213, 237);
+   height: 543px;
+   border: solid 2px;
+
+}
+
+.second_text{
+    border: solid 2px;
+    width: 450px;
+    margin-left: 185px;
+ 
+}
+
+
+.second_text p{
+   font-size: 27px;
+ 
+}
+.three_text{
+    position: relative;
+   bottom: 544px;
+    border: solid 2px;
+margin-left: 1212px;
+height: 540px;
+width: 500px;
+}
+
+.three_text p{
+font-size: 26px;
+
+}
