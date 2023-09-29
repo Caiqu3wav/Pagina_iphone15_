@@ -109,9 +109,6 @@ font-size: 26px;
   justify-content: center;
 }
 
-span {
-    font-size: x-large;
-  }
 
   .swiper_img {
     box-shadow: 0 1px 2px #0003;
@@ -120,6 +117,8 @@ span {
 
   .swiper {
     height: 500px;
+    background-color: rgb(187, 213, 237);
+    border: solid 2px;
   }
 
   .swiper-slide {
@@ -127,6 +126,11 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(187, 213, 237);
+  }
+
+  .swiper-wrapper{
+    background-color: rgb(187, 213, 237);
   }
 
   @media (max-width: 450px) {
